@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-@import url(/src/css/healer.css);
+@import url(/src/css/header.css);
 
 :root {
   --primary-color: #ff6b6b;
@@ -10,7 +10,7 @@
 
   --white-color: #ffffff;
   --light-bg-color: #f2f3f5;
-  --light-text-color: #7c899a
+  --light-text-color: #7c899a;
   --border-color: #e5e8ec;
   --dark-color: #0a021c;
 
@@ -139,7 +139,6 @@ h4 {
   gap: 1em;
 }
 
-
 .main-links a:hover {
   color: var(--secondary-color);
 }
@@ -148,7 +147,8 @@ h4 {
   color: var(--light-text-color);
 }
 
-.icon-small, .icon-large {
+.icon-small,
+.icon-large {
   display: flex;
   align-items: center;
   padding: 0 0.25em;
