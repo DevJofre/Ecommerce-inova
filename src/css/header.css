@@ -79,8 +79,6 @@
 .cicle::before {
   content: "";
   position: absolute;
-  width: 28px;
-  height: 28px;
   border-radius: var(--percent50);
   background-color: var(--secondary-color);
   bottom: 5px;
