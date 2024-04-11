@@ -28,7 +28,10 @@
     margin-left: 1em;
   }
 
-  /* mega menu*/
+  /* Mega menu*/
+  .mega ul {
+    padding: 0;
+  }
 
   nav .mega {
     position: absolute;
