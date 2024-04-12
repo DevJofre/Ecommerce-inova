@@ -165,3 +165,40 @@ h4 {
   font-size: 1.75em;
   padding: 0 0.75em 0 0;
 }
+
+/*
+.mobile-hide {
+  display: none;
+}
+
+*/
+
+.object-cover img {
+  position: absolute;
+  object-fit: cover;
+  width: var(--percent100);
+  height: var(--percent100);
+  display: block;
+}
+
+.products .media {
+  position: relative;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.primary-button,
+.secondary-button,
+.light-button {
+  font-size: var(--font-small);
+  padding: 0.9em 2em;
+  height: auto;
+  width: fit-content;
+  border-radius: 2em;
+  transform: var(--trans-background-color);
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
