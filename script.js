@@ -21,7 +21,8 @@ copyMenu();
 const menuButton = document.querySelector(".trigger"),
   closeButton = document.querySelector(".t-close"),
   addclass = document.querySelector(".site");
-menuButton.addEventListener("click", function () {
+menuButton.addEventListener("click", function (e) {
+  e.preventDefault();
   addclass.classList.toggle("showmenu");
 });
 closeButton.addEventListener("click", function () {
