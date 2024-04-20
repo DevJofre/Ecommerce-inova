@@ -396,13 +396,3 @@ form.search button:hover {
   line-height: 16px;
   margin: 0 0.5em 0.5em 0;
 }
-
-/*--------------------------
-* Slider
-*---------------------------*/
-
-.slider > div > .wrapper {
-  width: calc(100% - (300px + 2em));
-  margin-left: auto;
-  background-color: black;
-}
