@@ -1,14 +1,10 @@
 @import url(/style.css);
 @import url(/src/css/responsive.css);
+@import url(/src/css/header.css);
 
 /*--------------------------
 * Slider
 *---------------------------*/
-
-.slider > div > .wrapper {
-  width: calc(100% - (300px + 2em));
-  margin-left: auto;
-}
 
 .slider .item {
   position: relative;
@@ -59,8 +55,4 @@
 
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--secondary-dark-color);
-}
-
-.primary-button {
-  margin-bottom: 10%;
 }
