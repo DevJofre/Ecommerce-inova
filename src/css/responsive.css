@@ -9,7 +9,7 @@
     flex: 0 0 50%;
   }
 
-  /* page single */
+  /* página única */
   .products.one .big-image {
     margin-bottom: 2em;
   }
@@ -113,7 +113,7 @@
     margin-left: 1em;
   }
 
-  /* mega menu */
+  /* Mega menu */
   nav .mega {
     position: absolute;
     width: var(--percent100);
@@ -200,7 +200,7 @@
     margin-left: auto;
   }
 
-  /* Departments menu */
+  /* Menu de departamentos */
   .dpt-menu {
     position: absolute;
     top: var(--percent100);
@@ -287,7 +287,7 @@
     margin-left: auto;
   }
 
-  /* products */
+  /* Produtos */
   .trending .products,
   .product-categories .row {
     flex: 0 0 33.3333%;
@@ -302,14 +302,14 @@
     flex: 0 0 25%;
   }
 
-  /* footer */
+  /* Footer */
   .newsletter .box {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  /* Page Single */
+  /* Página única */
   #page:not(.page-home) .dpt-menu {
     display: none;
   }
