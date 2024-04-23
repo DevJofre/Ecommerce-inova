@@ -4,6 +4,7 @@
 @import url(/src/css/header.css);
 @import url(/src/css/responsive.css);
 @import url(/src/css/main.css);
+@import url(/src/css/footer.css);
 
 :root {
   --primary-color: #ff6b6b;
